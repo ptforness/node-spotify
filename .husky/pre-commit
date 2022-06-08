@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx lint-staged
+
+# Gitleaks secret detection
+# docker pull zricethezav/gitleaks:latest
+# docker run -v .. zricethezav/gitleaks:latest protect --source=".." --verbose --redact --staged

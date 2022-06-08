@@ -1,0 +1,14 @@
+# Source code
+src/
+
+# Environment variables
+**/*.env
+
+# Config files for development
+.eslintcache
+.eslintignore
+.eslintrc.cjs
+.prettierrc.cjs
+jest.config.cjs
+tsconfig.json
+.husky/
